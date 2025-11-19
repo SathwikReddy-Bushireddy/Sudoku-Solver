@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sudoku Solver — Premium UI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1 class="title">Sudoku Solver</h1>
+
+<div class="toolbar">
+    <select id="difficulty" class="select">
+        <option value="easy">Easy</option>
+        <option value="medium">Medium</option>
+        <option value="hard">Hard</option>
+    </select>
+
+    <button class="btn" onclick="generatePuzzle()">Generate</button>
+    <button class="btn" onclick="solvePuzzle()">Solve</button>
+    <button class="btn" onclick="clearGrid()">Clear</button>
+</div>
+
+<div id="grid"></div>
+
+<div id="timer">Solved in: 0 ms</div>
+
+<script src="script.js"></script>
+</body>
+</html>
