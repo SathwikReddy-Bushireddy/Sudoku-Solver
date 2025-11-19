@@ -21,7 +21,6 @@ This project includes:
 ### 🔸 Empty Board  
 ![Empty Board](./screenshots/sudoku_empty.png)
 
-(*Create a folder named `screenshots` and place the two UI images inside it.*)
 
 ---
 
